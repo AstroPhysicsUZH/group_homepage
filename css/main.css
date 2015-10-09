@@ -61,14 +61,218 @@ body {
 }
 
 .wrapper {
-    width: 90%;
-    margin: 0 5%;
+    width: 94%;
+    margin: 0 3%;
 }
+
+
+
+.title-container {
+    padding-top: 1em;
+    background-color: white;
+    border-bottom: 20px solid #0028a5;
+        -webkit-box-shadow: 0 5px 10px #000;
+           -moz-box-shadow: 0 5px 10px #000;
+                box-shadow: 0 5px 10px #000;
+}
+
+.footer-container {
+    background-color: #0028a5;
+    border-top: 20px solid #0028a5;
+    
+}
+
+footer p {
+    margin: 0;
+    background-color: #0028a5;
+    color: white;
+    font-size: 75%;
+    
+}
+
+#logo {
+    float: right;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 0 1em 0;
+}
+
+header h1 {
+    clear: both;
+    margin-top: 0;
+}
+
+nav {
+    min-height: 300px;
+    background-color: white;
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: auto 6em;
+}
+
+nav ul {
+    vertical-align: bottom;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    vertical-align: bottom;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #0028a5;
+}
+
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    color: #dc6027;
+    text-decoration: none;
+}
+
+
+article {
+    min-height: 400px;
+    margin-bottom: 100px;
+}
+
+
+.fullimg {
+    width: 96%;
+    padding: 1%;
+    border: 1px dotted black;
+    margin: 1%;
+}
+
+.floatimg {
+    width: 15%;
+    max-width: 75px;
+    float: left;
+    padding: 5px;
+    border: 1px dotted black;
+    margin: 5px;
+}
+
+article header {
+    margin-top: 3em;
+}
+
+.main h2 {
+    border-bottom: 1px solid black;
+}
+
+.main h3 {
+/*    border-bottom: 1px solid black;*/
+}
+
+.adressblock {
+    
+}
+
+.adressblock img {
+    min-width: 50px;
+}
+
+
+
+@media only screen and (min-width: 480px) {
+    
+    .title-container {
+        padding-top: 2em;
+        -webkit-box-shadow: 0 5px 10px #000;
+           -moz-box-shadow: 0 5px 10px #000;
+                box-shadow: 0 5px 10px #000;
+    }
+
+    #logo {
+    }
+
+    header h1 {
+        clear: none;
+    }
+
+    nav {
+        position: relative;
+        background-color: black;
+        min-height: auto;
+        height: 6em;
+    }
+    
+    nav ul {
+        display: block;
+        height: 100px;
+    }
+    
+    nav li {
+        display: inline-block;
+/*        height: 2em;
+        margin: 4em 1em 0em;
+*/    }
+
+    nav a {
+        display: inline-block;
+        height: 2em;
+        margin: 4em 0.5em 0;
+        padding: 0.5px 1em;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+    .cheffe {
+        vertical-align: top;
+    }
+    
+    .cheffe p {
+        padding: 0 2em;
+        margin: 0;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .adressblock {
+        /*border: 1px solid black;*/
+        padding-right: 2em;
+        display: inline-block;
+        min-width: 300px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
 
 /* ===================
     ALL: Orange Theme
    =================== */
 
+
+/*
 .header-container {
     border-bottom: 20px solid #0028a5;
 }
@@ -97,9 +301,7 @@ body {
 
 
 
-/* ==============
-    MOBILE: Menu
-   ============== */
+
 
 #logo {
     float: right;
@@ -143,9 +345,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* ==============
-    MOBILE: Main
-   ============== */
 
 .main {
     padding: 30px 0;
@@ -165,6 +364,8 @@ nav a:hover {
     padding: 20px 0;
 }
 
+*/
+
 /* ===============
     ALL: IE Fixes
    =============== */
@@ -172,17 +373,6 @@ nav a:hover {
 .ie7 .title {
     padding-top: 20px;
 }
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
 
 
 
@@ -201,13 +391,15 @@ nav a:hover {
     INTERMEDIATE: Menu
    ==================== */
 
+
+
+/*
     .header-container {
         background-color: #ff8800;
     }
 
     nav a {
         float: left;
-/*        width: 15%;*/
         margin: 0 1.7%;
         padding: 5px 2%;
         margin-bottom: 0;
@@ -224,20 +416,25 @@ nav a:hover {
     nav ul {
         min-height: 0;
     }
-    
+*/
 
 /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
 
+/*
     nav ul li {
         display: inline;
     }
-
     .oldie nav a {
         margin: 0 0.7%;
     }
+*/
 }
+
+
+
+
 
 @media only screen and (min-width: 768px) {
 
@@ -249,39 +446,31 @@ nav a:hover {
     WIDE: CSS3 Effects
    ==================== */
 
+/*
     .header-container,
     .main aside {
         -webkit-box-shadow: 0 5px 10px #aaa;
            -moz-box-shadow: 0 5px 10px #aaa;
                 box-shadow: 0 5px 10px #aaa;
     }
+    
+*/
 
 /* ============
     WIDE: Menu
    ============ */
 
-    .title {
-/*        float: left;*/
-/*        display: block;
-        width: 50%;*/
-    }
-
-    nav {
-/*        display: block;
-        vertical-align: bottom;
-        width: 48%;*/
-    }
 
 /* ============
     WIDE: Main
    ============ */
-
+/*
     .main article {
         float: left;
         width: 100%;
     }
 
-/*
+
     .main aside {
         float: right;
         width: 28%;
@@ -305,6 +494,10 @@ nav a:hover {
         margin: 0 auto;
     }
 }
+
+
+
+
 
 /* ==========================================================================
    Helper classes
