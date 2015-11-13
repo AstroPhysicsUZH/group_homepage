@@ -105,7 +105,7 @@ header h1 {
 nav {
     min-height: 300px;
     background-color: white;
-    background-image: url("../img/header.jpg");
+    background-image: url("../img/banner.jpg");
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: auto 6em;
@@ -123,6 +123,7 @@ nav a {
     display: block;
     margin-bottom: 10px;
     padding: 10px 0;
+    border-radius: 5px 25px 0px 0px;
 
     text-align: center;
     text-decoration: none;
@@ -157,6 +158,19 @@ article {
     margin: 1%;
 }
 
+.halfimg {
+    width: 48%;
+    padding: 5px;
+    border: 1px dotted black;
+    margin: 5px;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+
 .floatimg {
     width: 15%;
     max-width: 75px;
@@ -185,6 +199,19 @@ article header {
 .adressblock img {
     min-width: 50px;
 }
+
+
+.source {
+    font-size: 75%;
+    color: #666;
+}
+.source::before {
+    content: "(Src: ";
+}
+.source::after {
+    content: ")";
+}
+
 
 
 
