@@ -49,7 +49,7 @@
         <h1>Gravitation and Astrophysics</h1>
         <h2>Jetzter Group</h2>
     </header>
-    <nav>
+    <nav id="menu" class="default">
         <ul class="wrapper">
             <li><a href="#top">About</a></li>
             <li><a href="#research">Research</a></li>
@@ -165,7 +165,7 @@
 
     <section class="cheffe">
         <h2>Prof Philippe Jetzer</h2>
-        <img class="floatimg" src="img/anon.jpg">
+        <img class="floatimg" src="people/p_jetzer.jpg">
         <p>Physik-Institut<br>University of Zurich<br>Winterthurerstr. 190<br>8057 Zurich<br>Switzerland</p>
         <p>jetzer@physik.uzh.ch<br>Office: Y36-K34<br>Tel: +41 44 635 5819<br>Fax: +41 44 635 5704</p>
     </section>
