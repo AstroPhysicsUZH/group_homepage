@@ -1,10 +1,11 @@
-<!doctype html>
+<?php include 'people.php'; ?><!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title></title>
         <meta name="description" content="">
@@ -64,17 +65,36 @@
 <div class="main wrapper clearfix">
 
 <article id="top">
-    <header class="clearfix">
+    <header>
         <h1>Welcome to the Gravtitation and Astrophysics Group</h1>
         <img class="right halfimg" src="img/irchel.jpg">
         <p>
-            We are conducting research in theoretical astrophysics.
-            Our research area focuses around Albert Einstein's General Relativity.
-            Our goal is to test GR and use it to make predictions about the universe.
+            Our research area focuses around Albert Einstein's General Relativity (GR).
+            Even though being a very successful theory in explaining the universe at the large scale, a few open questions remain, especially in small space-time regions where it cannot be unified with quantum field theory.
+            We do the theoretical work for tests of GR, that could allow to find deviations and would be a motivation to formulate a more general theory, unifying all fundamental forces of nature.
+        </p><p>
+            We are involved with several international research projects:
+            <ul>
+                <li><a href="https://www.elisascience.org">
+                    eLISA (Consortium Steering Commitee)
+                </a></li>
+                <li><a href="http://sci.esa.int/lisa-pathfinder/">
+                    LISA Pathfinder (Science Team)
+                </a></li>
+                <li><a href="http://sci.esa.int/ste-quest/">
+                    STE-QUEST (Study Science Team)
+                </a></li>
+                <li><!--<a href="https://" -->
+                    E-GRIP (Principal investigator)
+                <!--</a>--></li>
+            </ul>
+        </p><p>
+            We are part of the
+            <a href="http://www.physik.uzh.ch/e/homepage.shtml">physics institute</a> of
+            <a href="http://www.uzh.ch/en.html">University of Zurich UZH</a>.
+            Our offices are located at the beautiful Irchel campus in Zurich and can be found in the <strong>building 36 on the K floor.</strong> <a href="https://www.google.ch/maps/place/Physik-Institut+der+Universit%C3%A4t+Z%C3%BCrich/@47.397124,8.5498869,305m/data=!3m1!1e3!4m2!3m1!1s0x479aa08286159ca7:0x472b412a88eb77a6!6m1!1e1">(directions)</a>
         </p>
-        <p>
-            and are member of the core team <a href="https://www.elisascience.org/">eLISA consortium</a>.
-        </p>
+            
     </header>
 </article>
 
@@ -142,6 +162,7 @@
     <header>
         <h1>People</h1>
     </header>
+
     <section class="cheffe">
         <h2>Prof Philippe Jetzer</h2>
         <img class="floatimg" src="img/anon.jpg">
@@ -151,7 +172,14 @@
     
     <section>
         <h2>Group Members</h2>
-
+        
+<!--
+NOTE: the entries for the people are generated automatically using the csv file
+people/people.csv
+Just open it with LibreOffice / Excel / TextEditor and make your changes
+-->
+        <?php get_people('group') ?>
+<!--
         <div class="adressblock clearfix">
             <h3>Dr. Ruxandra Bondarescu</h3>
             <img class="floatimg" src="img/anon.jpg">
@@ -187,25 +215,31 @@
             <img class="floatimg" src="img/anon.jpg">
             <p>email@inter.net<br>Office: Y36-K32<br>Tel: +41 44 63 55807</p>
         </div>
+-->
     </section>
     
     <section>
         <h2>External</h2>
-
+        <?php get_people('external') ?>
+<!--
         <div class="adressblock clearfix">
             <h3>Jan Ten Pierick</h3>
             <img class="floatimg" src="img/anon.jpg">
             <p>(LISA engeneer)<br>email@inter.net<br>Office: Y36-K34<br>Tel: +41 44 63 55804</p>
         </div>
+-->
     </section>
 
     <section>
         <h2>Academic Guests</h2>
+        <?php get_people('guest') ?>
+<!--
         <div class="adressblock clearfix">
             <h3>Pierre Mandrin</h3>
             <img class="floatimg" src="img/anon.jpg">
             <p>email@inter.net<br>Office: Y36-K34<br>Tel: +41 44 63 55804</p>
         </div>
+-->
     </section>
     
 </article>
@@ -268,39 +302,10 @@
         <p>
             If you like our research areas and want to contribute, we'd be exited to hear from you!<br>
             Whether you have your own idea, or want to contribute to a running project, 
-            just drop us a mail or come by in one of our offices in Y-36-K floor for a discussion.
+            just drop us a mail or come by in one of our offices in Y36-K floor for a discussion.
         </p>
     </section>
 </article>
-
-
-
-
-<!--
-                <article id="group">
-                    <header>
-                        <h1>article header h1</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec.</p>
-                    </header>
-                    <section>
-                        <h2>article section h2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
-                    </section>
-                    <section>
-                        <h2>article section h2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
-                    </section>
-                    <footer>
-                        <h3>article footer h3</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor.</p>
-                    </footer>
-                </article>
-
-                <aside>
-                    <h3>aside</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices.</p>
-                </aside>
--->
 
             </div> <!-- #main -->
         </div> <!-- #main-container -->
