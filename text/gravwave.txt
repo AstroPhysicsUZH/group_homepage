@@ -1,0 +1,13 @@
+﻿Gravitational waves are tiny distortions in the fabric of space-time travelling at the speed of light. They are predicted by Einstein’s General Relativity. The Evolved Laser Interferometer Space Antenna (eLISA), is a proposed European Space Agency mission designed to directly observe and accurately measure those waves. Passing gravitational waves alternately squeeze and stretch objects by a tiny amount. Gravitational waves are caused by energetic events in the universe like merging massive black holes and, unlike any other radiation, can pass unhindered by intervening mass. Detection of gravitational waves will add a new sense to scientists' perception of the universe and enable them to listen to a world that is invisible with light.
+
+
+
+
+
+
+
+ The mission would evolve from the ESA LISA Pathfinder technology research demonstrator scheduled for launch in November 27, 2015 into a full scale gravitational wave observatory. eLISA would be the first dedicated space-based gravitational wave detector. It aims to measure gravitational waves directly by using laser interferometry. The LISA concept has a constellation of three spacecraft, arranged in an equilateral triangle with million kilometre arms (5 million km for classic LISA, 1 million km for eLISA) flying along an Earth-like heliocentric orbit. The distance between the satellites is precisely monitored to detect a passing gravitational wave.
+        </p><p>
+            A LISA-like mission is designed to directly observe gravitational waves, which are distortions of space-time travelling at the speed of light. Passing gravitational waves alternately squeeze and stretch objects by a tiny amount. Gravitational waves are caused by energetic events in the universe and, unlike any other radiation, can pass unhindered by intervening mass. Launching eLISA will add a new sense to scientists' perception of the universe and enable them to listen to a world that is invisible with light.
+        </p><p>
+            Potential sources for signals are merging massive black holes at the centre of galaxies, massive black holes orbited by small compact objects, known as extreme mass ratio inspirals, binaries of compact stars in our Galaxy, and possibly other sources of cosmological origin, such as the very early phase of the Big Bang, and speculative astrophysical objects like cosmic strings and domain boundaries.
