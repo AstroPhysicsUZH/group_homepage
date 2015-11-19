@@ -24,37 +24,19 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!--
-        <div class="header-container">
-            <header class="wrapper clearfix">
-                <div class="title">
-                    <img id="logo" alt="uzh logo" src="img/uzh_logo_e_pos.png">
-                    <h1>Gravitation and Astrophysics</h1>
-                    <h2>Jetzter Group</h2>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="#top">Top</a></li>
-                        <li><a href="#group">Group</a></li>
-                        <li><a href="#">Lectures</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
--->
+
 <div class="title-container">
     <header class="wrapper">
         <img id="logo" alt="uzh logo" src="img/uzh_logo_e_pos.png">
         <h1>Gravitation and Astrophysics</h1>
-        <h2>Jetzter Group</h2>
+        <h2>Jetzer Group</h2>
     </header>
     <nav id="menu" class="default">
         <ul class="wrapper">
             <li><a href="#top">About</a></li>
             <li><a href="#research">Research</a></li>
             <li><a href="#group">Members</a></li>
-            <li><a href="#lectures">Lectures</a></li>
+            <li><a href="#students">Students</a></li>
         </ul>
     </nav>
 </div>
@@ -66,12 +48,12 @@
 
 <article id="top">
     <header>
-        <h1>Welcome to the Gravtitation and Astrophysics Group</h1>
+        <h1>Welcome to the Gravitation and Astrophysics Group</h1>
         <img class="right halfimg" src="img/irchel.jpg">
         <p>
             Our research area focuses around Albert Einstein's General Relativity (GR).
             Even though being a very successful theory in explaining the universe at the large scale, a few open questions remain, especially in small space-time regions where it cannot be unified with quantum field theory.
-            We do the theoretical work for tests of GR, that could allow to find deviations and would be a motivation to formulate a more general theory, unifying all fundamental forces of nature.
+            We do the theoretical work on gravitational waves and for tests of GR, that could allow to find deviations and would be a motivation to formulate a more general theory, unifying all fundamental forces of nature.
         </p><p>
             We are involved with several international research projects:
             <ul>
@@ -246,57 +228,68 @@ Just open it with LibreOffice / Excel / TextEditor and make your changes
 
 
 
-<article id="lectures">
+<article id="students">
     <header>
-        <h1>Lectures / Students</h1>
+        <h1>For Students</h1>
     </header>
+    
     <section>
         <h2>Current Lectures</h2>
         <ul>
+<!--    Note to future poor soul that has to maintain this...
+        The Idea is that you just have to uncomment the according part ;)
+-->
             <li>
             (none)
             </li>
+<!--
             <li><a href='http://www.physik.uzh.ch/lectures/agr'>
                 Applications of General Relativity in Astrophysics and Cosmology (PHY519)
             </a></li>
+-->
+<!--
             <li><a href='http://www.physik.uzh.ch/lectures/mmp'>
                 Mathematische Methoden der Physik I &amp; II (PHY312 &amp; PHY322)
             </a></li>
+-->
         </ul>
     </section>
+    
     <section>
         <h2>Lecture Notes</h2>
         <ul>
-            <li><a href='http://www.physik.uzh.ch/lectures/mmp/MMP1.pdf'>
-                [PHY312] Mathematische Methoden der Physik I
+        
+            <li><a href='notes/PHY312_MMP_1.pdf'>
+                Mathematische Methoden der Physik I [PHY312]
             </a></li>
 
-            <li><a href='http://www.physik.uzh.ch/lectures/mmp/MMP2.pdf'>
-                [PHY322] Mathematische Methoden der Physik II 
+            <li><a href='notes/PHY322_MMP_2.pdf'>
+                Mathematische Methoden der Physik II [PHY322]
             </a></li>
 
-            <li><a href='http://www.physik.uzh.ch/groups/jetzer/lecturenotes/general_relativity.pdf'>
-                [PHY511] General Relativity (revised notes, typed by Arnaud Borde)
+            <li><a href='notes/PHY511_General_Relativity.pdf'>
+                General Relativity (revised notes, typed by Arnaud Borde) [PHY511]
             </a></li>
 
-            <li><a href='http://www.mitschriften.ethz.ch/main.php?page=3&scrid=1&pid=164&oid=148&eid=1'>
-                [PHY511] General Relativity (unofficial notes, typed by Felix Haehl)
+            <li><a href='notes/PHY511_General_Relativity_unoffical.pdf'>
+                General Relativity (unofficial notes, typed by Felix Haehl) [PHY511]
             </a></li>
             
-            <li><a href='http://www.physik.uzh.ch/groups/jetzer/lecturenotes/ART_II_Skript.pdf'>
-                [PHY 519] Applications of General Relativity (Felix Haehl)
+            <li><a href='notes/PHY519_ART_II.pdf'>
+                Applications of General Relativity (Felix Haehl) [PHY 519]
             </a></li>
             
-            <li><a href='http://www.physik.uzh.ch/groups/jetzer/lecturenotes/lensing.ps'>
-                Gravitational Lensing (PS)
+            <li><a href='notes/Gravitational_Lensing.pdf'>
+                Gravitational Lensing
             </a></li>
             
-            <li><a href='http://www.physik.uzh.ch/groups/jetzer/lecturenotes/highastro1.ps'>
-                High Energy Astrophysics I (PS)
+            <li><a href='notes/High_Energy_Astrophysics_1.pdf'>
+                High Energy Astrophysics I
             </a></li>
             
         </ul>
     </section>
+    
     <section>
         <h2>Bachelor / Master Thesis</h2>
         <p>
@@ -305,7 +298,27 @@ Just open it with LibreOffice / Excel / TextEditor and make your changes
             just drop us a mail or come by in one of our offices in Y36-K floor for a discussion.
         </p>
     </section>
+    <section>
+        <h2>PhD / PostDoc Positions</h2>
+        <p>
+            For up to date information of available positions please consult the
+            <a href="http://www.physik.uzh.ch/info/graduateschool.shtml">graduate school</a> and the <a href="http://www.physik.uzh.ch/jobs.shtml"> jobs portal</a>
+            of the physics institute.
+        </p>
+<!-- Don't do this, this will never be maintained...
+        <p>
+        Currently open positions:
+        <ul>
+            <li><a href="http://www.physik.uzh.ch/news/PhD-Jetzer-04112015.pdf">
+            PhD position in Science of Measurement for Space-borne Gravitational Waves Obser
+vatories
+            </a></li>
+        </ul>
+        </p>
+-->
+    </section>
 </article>
+
 
             </div> <!-- #main -->
         </div> <!-- #main-container -->
@@ -316,7 +329,7 @@ Just open it with LibreOffice / Excel / TextEditor and make your changes
             </footer>
         </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/main.js"></script>

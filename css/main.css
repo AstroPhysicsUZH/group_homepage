@@ -45,10 +45,17 @@ textarea {
 }
 
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
+    z-index: 100;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 1em 0;
+    background: #fcc;
     color: #000;
-    padding: 0.2em 0;
+    padding: 1em 0;
+    text-align: center;
 }
 
 
@@ -65,6 +72,18 @@ body {
     margin: 0 3%;
 }
 
+a {
+    color: #0028a5;
+    text-decoration: none;
+    transition: background-color 0.2s linear;
+}
+a:hover {
+    text-decoration: underline;
+    background-color: #eee;
+}
+a:visited {
+    color: #6028a5;
+}
 
 
 .title-container {
@@ -78,7 +97,9 @@ body {
 
 .footer-container {
     background-color: #0028a5;
-    border-top: 20px solid #0028a5;
+    border-top: 10px solid #0028a5;
+    border-bottom: 10px solid #0028a5;
+    margin-top: 3em;
     
 }
 
@@ -87,6 +108,7 @@ footer p {
     background-color: #0028a5;
     color: white;
     font-size: 75%;
+    text-align: right;
     
 }
 
@@ -129,7 +151,7 @@ nav a {
     display: block;
     margin-bottom: 10px;
     padding: 10px 0;
-    border-radius: 5px 25px 0px 0px;
+    border-radius: 0px 5px 5px 0px;
 
     text-align: center;
     text-decoration: none;
@@ -139,10 +161,29 @@ nav a {
     background: #0028a5;
 }
 
+/*
+nav.fixed ul {
+    display: block;
+    height: 100px;
+}
+
+nav.fixed li {
+    display: inline-block;
+}
+
+nav.fixed a {
+    background: #ff0000;
+    display: inline-block;
+    height: 2em;
+    margin-top: 6em;
+    padding: 0;
+}
+*/
 
 nav a:hover,
 nav a:visited {
     color: white;
+    background: #0028a5;
 }
 
 nav a:hover {
@@ -153,7 +194,7 @@ nav a:hover {
 
 article {
     min-height: 400px;
-    margin-bottom: 100px;
+    margin-bottom: 2.5em;
 }
 
 
@@ -225,9 +266,13 @@ article header {
     
     .title-container {
         padding-top: 2em;
+        height: 14em;
         -webkit-box-shadow: 0 5px 10px #000;
            -moz-box-shadow: 0 5px 10px #000;
                 box-shadow: 0 5px 10px #000;
+    }
+    header.wrapper {
+        height: 8em;
     }
 
     #logo {
@@ -261,6 +306,7 @@ article header {
         margin: 4em 0.5em 0;
         padding: 0.5px 1em;
         margin-bottom: 0;
+        border-radius: 5px 5px 5px 5px;
     }
 
     nav li:first-child a {
@@ -269,6 +315,16 @@ article header {
 
     nav li:last-child a {
         margin-right: 0;
+    }
+    
+    nav.fixed a {
+        margin-top: 4.5em;
+    }
+    
+    article {
+        margin-bottom: 0em;
+        padding-bottom: 2.5em;
+        padding-top: 1.5em;
     }
 
     .cheffe {
