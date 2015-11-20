@@ -1,4 +1,4 @@
-﻿Our research area focuses around Albert Einstein's General Relativity (GR). Even though being a very successful theory in explaining the universe at the large scale, a few open questions remain, especially in small space-time regions where it cannot be unified with quantum field theory. We do the theoretical work for tests of GR, that could allow to find deviations and would be a motivation to formulate a more general theory, unifying all fundamental forces of nature.
+﻿Our research area focuses around Albert Einstein's General Theory of Relativity (GR). Even though being a very successful theory in explaining the universe at the large scale, a few open questions remain, especially in small spacetime regions where it cannot be unified with quantum field theory. We do the theoretical work for tests of GR, that could allow to find deviations and would be a motivation to formulate a more general theory, unifying all fundamental forces of nature.
 
 We are involved with several international research projects:
 eLISA (Consortium Steering Commitee) https://www.elisascience.org

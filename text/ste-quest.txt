@@ -6,8 +6,8 @@
 <strong>E</strong>quivalence Principle
 <strong>S</strong>pace
 <strong>T</strong>est
-(STE-QUEST) is a candidate mission for a M launch opportunity in ESA's Cosmic Vision programme.
+(STE-QUEST) was a candidate mission for a M launch opportunity in ESA's Cosmic Vision programme.
 
-The mission is designed to answer a range of questions in fundamental physics by performing precision measurements with high accuracy atomic sensors.
+The mission was designed to answer a range of questions in fundamental physics by performing precision measurements with high accuracy atomic sensors.
 
 In particular, STE-QUEST would test Einstein's Equivalence Principle, which underpins the theory of General Relativity; explore the boundaries with the quantum world; and search for new fundamental constituents and interactions in the Universe.
