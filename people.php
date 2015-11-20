@@ -92,12 +92,12 @@ function get_people($filter) {
     foreach ($people[$filter] as $p) {
         $str  = "<div class=\"adressblock clearfix\">\n";
         $str .= "    <h3>" . get($p['title'], '') . " {$p['first']} {$p['last']}</h3>\n"; #mind the space before first
-        $str .= "    <img class=\"floatimg\" src=\"" . gett("",$p['foto'], "people/anon.jpg") . "\">\n";
+        $str .= "    <img class=\"floatimg\" src=\"" . gett("people/",$p['foto'], "anon.jpg") . "\">\n";
         $str .= "    <p>";
         $str .= $p['func'] ? "({$p['func']})<br>" : "" ;
         
         $str .= $p['hp'] ? "<a href='{$p['hp']}'>Homepage</a><br>" : "" ;
-        $str .= $p['mail'] ? "Email: <a href='mailto:{$p['mail']}'>{$p['mail']}</a><br>" : "" ;
+        $str .= $p['mail'] ? "<a href='mailto:{$p['mail']}'>{$p['mail']}</a><br>" : "" ;
         #$str .= "Email: " . ( $p['mail'] ? "<a href='mailto:{$p['mail']}'>{$p['mail']}</a>" : "(none)" ) . "<br>";
         $str .= $p['buro'] ? "Office: {$p['buro']}<br>" : "" ;
         #$str .= gett("Office: ", $p['buro'], "(none)") . "<br>";
