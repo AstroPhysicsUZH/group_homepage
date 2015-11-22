@@ -78,6 +78,19 @@
         </p>
             
     </header>
+    <section>
+        <h2>News</h2>
+        <ul>
+            <li>
+                <strong>02.12.2015 04:15 (UTC)</strong>
+                <a href="http://sci.esa.int/lisa-pathfinder/">LISA Pathfinder Launch</a>
+            </li>
+            <li>
+                <strong>11.12.2015 16:00 (CET)</strong>
+                "Lift-off" reception for LISA Pathfinder (ETHZ Auditorium NO C60)
+            </li>
+        </ul>
+    </section>
 </article>
 
 <article id="research">
