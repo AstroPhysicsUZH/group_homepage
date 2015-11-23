@@ -162,7 +162,7 @@
         <h2>Prof Philippe Jetzer</h2>
         <img class="floatimg" src="people/p_jetzer.jpg">
         <p>Physik-Institut<br>University of Zurich<br>Winterthurerstr. 190<br>8057 Zurich<br>Switzerland</p>
-        <p>jetzer@physik.uzh.ch<br>Office: Y36-K34<br>Tel: +41 44 635 5819<br>Fax: +41 44 635 5704</p>
+        <p><a href="#" class='iimeil cheffe' data-iimeil='SofioX_MFVKOChBiFhbF'>eMail</a><br>Office: Y36-K34<br><a href='tel:+41446355819'>Tel: +41 44 635 5819</a><br>Fax: +41 44 635 5704</p>
     </section>
     
     <section>
@@ -174,69 +174,21 @@ people/people.csv
 Just open it with LibreOffice / Excel / TextEditor and make your changes
 -->
         <?php get_people('group') ?>
-<!--
-        <div class="adressblock clearfix">
-            <h3>Dr. Ruxandra Bondarescu</h3>
-            <img class="floatimg" src="img/anon.jpg">
-            <p>email@inter.net<br>Office: Y36-K34<br>Tel: +41 44 63 55804</p>
-        </div>
-        <div class="adressblock clearfix">
-            <h3>Simone Balmelli</h3>
-            <img class="floatimg" src="img/anon.jpg">
-            <p>email@inter.net<br>Office: Y36-K32<br>Tel: +41 44 63 55807</p>
-        </div>
-        <div class="adressblock clearfix">
-            <h3>Lorenzo De Vittori</h3>
-            <img class="floatimg" src="img/anon.jpg">
-            <p>email@inter.net<br>Office: Y36-K32<br>Tel: +41 44 63 55807</p>
-        </div>
-        <div class="adressblock clearfix">
-            <h3>Lionel Philippoz</h3>
-            <img class="floatimg" src="img/anon.jpg">
-            <p>email@inter.net<br>Office: Y36-K32<br>Tel: +41 44 63 55807</p>
-        </div>
-        <div class="adressblock clearfix">
-            <h3>Andreas Schärer</h3>
-            <img class="floatimg" src="img/anon.jpg">
-            <p>email@inter.net<br>Office: Y36-K34<br>Tel: +41 44 63 55804</p>
-        </div>
-        <div class="adressblock clearfix">
-            <h3>Rafael Kueng</h3>
-            <img class="floatimg" src="img/anon.jpg">
-            <p>email@inter.net<br>Office: Y36-K34<br>Tel: +41 44 63 55804</p>
-        </div>
-        <div class="adressblock clearfix">
-            <h3>Yannick Boetzel</h3>
-            <img class="floatimg" src="img/anon.jpg">
-            <p>email@inter.net<br>Office: Y36-K32<br>Tel: +41 44 63 55807</p>
-        </div>
--->
+
+
+
     </section>
-    
+
     <section>
         <h2>External</h2>
         <?php get_people('external') ?>
-<!--
-        <div class="adressblock clearfix">
-            <h3>Jan Ten Pierick</h3>
-            <img class="floatimg" src="img/anon.jpg">
-            <p>(LISA engeneer)<br>email@inter.net<br>Office: Y36-K34<br>Tel: +41 44 63 55804</p>
-        </div>
--->
     </section>
 
     <section>
         <h2>Academic Guests</h2>
         <?php get_people('guest') ?>
-<!--
-        <div class="adressblock clearfix">
-            <h3>Pierre Mandrin</h3>
-            <img class="floatimg" src="img/anon.jpg">
-            <p>email@inter.net<br>Office: Y36-K34<br>Tel: +41 44 63 55804</p>
-        </div>
--->
     </section>
-    
+
 </article>
 
 

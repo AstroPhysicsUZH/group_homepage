@@ -27,6 +27,22 @@ function gett($pf="", &$var, $default="") {
 
 
 /**
+ * en/decrypts an email address using rotN method
+ * (let js then decrypt it afterwards, using -N)
+ * 
+ * use my own de/encryption, based on the idea of rot13
+ */
+function encrypt($s, $n=0) {
+    static $letters = 'VR@qkxofaHjQ.PJlsuZrOEA_nCTUpcDSWhzygKBYXetNvLwdGMb-mIFi';
+    $nchr = strlen($letters);
+    $n = (((int)$n) + $nchr) % $nchr;
+    $rep = substr($letters, $n) . substr($letters, 0, $n);
+    return strtr($s, $letters, $rep);
+}
+
+
+
+/**
  * reads a cvs file
  * $offset:   how many lines to ignore at the beginning of the csv file
  * 
@@ -96,13 +112,19 @@ function get_people($filter) {
         $str .= "    <p>";
         $str .= $p['func'] ? "({$p['func']})<br>" : "" ;
         
-        $str .= $p['hp'] ? "<a href='{$p['hp']}'>Homepage</a><br>" : "" ;
-        $str .= $p['mail'] ? "<a href='mailto:{$p['mail']}'>{$p['mail']}</a><br>" : "" ;
-        #$str .= "Email: " . ( $p['mail'] ? "<a href='mailto:{$p['mail']}'>{$p['mail']}</a>" : "(none)" ) . "<br>";
+        $str .= $p['hp'] ? "<a href='{$p['hp']}'>Homepage</a> " : "" ;
+
+        
+        if ($p['hp'] and $p['mail']) {
+            $str .= " | ";
+        }
+        /* encrypt email adresses, let js decrypt them */
+        $encr_adr = encrypt($p['mail'], 21);
+        $str .= $p['mail'] ? "<a class='iimeil' href='mailto:someone@inter.net?body=Please enable javascript to decrypt email adresses. Alternativly you can try http://www.phonebook.uzh.ch/.' data-iimeil='{$encr_adr}' title='email address'>eMail</a><br>" : "" ;
+
         $str .= $p['buro'] ? "Office: {$p['buro']}<br>" : "" ;
-        #$str .= gett("Office: ", $p['buro'], "(none)") . "<br>";
-        $str .= $p['tel'] ? "Phone: {$p['tel']}<br>" : "" ;
-        #$str .= gett("Tel: ", $p['tel'], "(none)");
+        $str .= $p['tel'] ? "<a href='tel:" . preg_replace('/\s+/', '', $p['tel']) .  "'>Phone: {$p['tel']}</a><br>" : "" ;
+
         $str .= "</p>\n";
         $str .= "</div>\n";
         
