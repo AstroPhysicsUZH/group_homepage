@@ -1,4 +1,19 @@
-﻿Gravitational waves (GW) are tiny ripples in the fabric of spacetime traveling at the speed of light. They were predicted by Einstein in 1916 as a consequence of his theory of General Relativity. There is indirect evidence for the existence of GW (e.g. Hulse-Taylor binary), but so far they have not been directly observed. The evolved Laser Interferometer Space Antenna (eLISA) is a proposed European Space Agency mission designed to directly observe and accurately measure those waves, caused by energetic events in the universe like merging massive black holes, extreme mass ratio inspirals and binaries of compact stars in our Galaxy. Unlike any other radiation, GW can pass unhindered by intervening mass. Detection of gravitational waves will thus add a new sense to scientists' perception of the universe and enable them to listen to a world that is invisible with light.
+﻿Gravitational waves (GW) are tiny ripples in the fabric of spacetime traveling at the speed of light.
+They were predicted by Einstein in 1916 as a consequence of his theory of General Relativity.
+There is indirect evidence for the existence of GW (e.g. Hulse-Taylor binary), but so far they have not been directly observed.
+The 
+<strong>e</strong>volved
+<strong>L</strong>aser
+<strong>I</strong>nterferometer
+<strong>S</strong>pace
+<strong>A</strong>ntenna
+(eLISA) is a proposed European Space Agency mission designed to directly observe and accurately measure those waves, caused by energetic events in the universe like merging massive black holes, extreme mass ratio inspirals and binaries of compact stars in our Galaxy.
+Unlike any other radiation, GW can pass unhindered by intervening mass.
+Detection of gravitational waves will thus add a new sense to scientists' perception of the universe and enable them to listen to a world that is invisible with light.
+
+
+
+
 
 
 

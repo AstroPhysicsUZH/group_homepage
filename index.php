@@ -106,19 +106,20 @@
         <h2>Gravitational Waves - <a href="https://www.elisascience.org/">eLISA</a></h2>
         <img class="floatimg" src="img/gravwaves.jpg">
         <p>
-            Gravitational waves are tiny distortions in the fabric of space-time travelling at the speed of light.
-            They are predicted by Einstein’s General Relativity.
-            The
-            <strong>e</strong>volved
-            <strong>L</strong>aser
-            <strong>I</strong>nterferometer
-            <strong>S</strong>pace
-            <strong>A</strong>ntenna
-            (eLISA), is a proposed European Space Agency mission designed to directly observe and accurately measure those waves.
-            Passing gravitational waves alternately squeeze and stretch objects by a tiny amount.
-            Gravitational waves are caused by energetic events in the universe like merging massive black holes and, unlike any other radiation, can pass unhindered by intervening mass.
-            Detection of gravitational waves will add a new sense to scientists' perception of the universe and enable them to listen to a world that is invisible with light.
-            <a class='source' href='https://en.wikipedia.org/wiki/Evolved_Laser_Interferometer_Space_Antenna'>Wiki</a>
+Gravitational waves (GW) are tiny ripples in the fabric of spacetime traveling at the speed of light.
+They were predicted by Einstein in 1916 as a consequence of his theory of General Relativity.
+There is indirect evidence for the existence of GW (e.g. Hulse-Taylor binary), but so far they have not been directly observed.
+The 
+<strong>e</strong>volved
+<strong>L</strong>aser
+<strong>I</strong>nterferometer
+<strong>S</strong>pace
+<strong>A</strong>ntenna
+(eLISA) is a proposed European Space Agency mission designed to directly observe and accurately measure those waves, caused by energetic events in the universe like merging massive black holes, extreme mass ratio inspirals and binaries of compact stars in our Galaxy.
+Unlike any other radiation, GW can pass unhindered by intervening mass.
+Detection of gravitational waves will thus add a new sense to scientists' perception of the universe and enable them to listen to a world that is invisible with light.
+            <!--
+            <a class='source' href='https://en.wikipedia.org/wiki/Evolved_Laser_Interferometer_Space_Antenna'>Wiki</a>-->
         </p>
     </section>
     
@@ -137,7 +138,9 @@
             (STE-QUEST) is a candidate mission for a M launch opportunity in ESA's Cosmic Vision programme.
             The mission is designed to answer a range of questions in fundamental physics by performing precision measurements with high accuracy atomic sensors.
             In particular, STE-QUEST would test Einstein's Equivalence Principle, which underpins the theory of General Relativity; explore the boundaries with the quantum world; and search for new fundamental constituents and interactions in the Universe.
+            <!--
             <a class='source' href='http://sci.esa.int/ste-quest/'>ESA</a>
+            -->
         </p>
     </section>
     
@@ -145,12 +148,11 @@
         <h2>Gravitational Lensing</h2>
         <img class="floatimg" src="img/einsteinring.jpg">
         <p>
-            Gravitational Lensing is the astronomical effect of the distortion of light by masses, explained by Einstein's General Relativity.
-            The light of a source astronomical object (like stars, quasars or galaxies) is passing though the gravitational field of a second object in the line of sight, the gravitational lens.
-            In the gravitational field, light rays get delayed and change direction such that their position is shifted on the observers sky.
-            Additionally, the resulting image can be magnified, distorted or even multiplied.
-            On one side, these lenses can be used to study objects far away.
-            On the other side, the analysis of the effects on the images allow to determine the gravitational field, and thus to determine the total mass of the lens object (including dark matter).
+Gravitational Lensing is the astronomical effect of the distortion of light by masses, explained by Einstein's General Relativity.
+The light of a source astronomical object (like stars, quasars or galaxies) is passing though the gravitational field of a second object in the line of sight, the gravitational lens.
+In the gravitational field, light rays get delayed and change direction such that their position is shifted on the observers sky.
+Additionally, the resulting image can be magnified, distorted or even multiplied. On one side, these lenses can be used to study objects far away.
+On the other side, the analysis of the effects on the images allow to determine the gravitational field, and thus to determine the total mass of the lens object (including dark matter).
         </p>
     </section>
 
