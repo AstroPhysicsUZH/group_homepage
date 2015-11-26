@@ -51,9 +51,14 @@
         <h1>Welcome to the Gravitation and Astrophysics Group</h1>
         <img class="right halfimg" src="img/irchel.jpg">
         <p>
-            Our research area focuses around Albert Einstein's General Relativity (GR).
-            Even though being a very successful theory in explaining the universe at the large scale, a few open questions remain, especially in small space-time regions where it cannot be unified with quantum field theory.
-            We do the theoretical work on gravitational waves and for tests of GR, that could allow to find deviations and would be a motivation to formulate a more general theory, unifying all fundamental forces of nature.
+            Our research focuses on gravitational wave astronomy, gravitational lensing and tests of 
+            Albert Einstein's General Relativity (GR).  
+            Although, General Relativity is a very successful theory in explaining observations 
+            of the Universe both on the large scale and on the solar system scale, many open
+            questions remain. Our theoretical work investigates how to best detect deviations
+            from general relativity with current and planned missions, which could serve as a
+            motivation to formulate a general theory that unifies all fundamental forces of nature.
+
         </p><p>
             We are involved with several international research projects:
             <ul>
