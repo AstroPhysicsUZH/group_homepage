@@ -61,21 +61,22 @@
 
         </p><p>
             We are involved with several international research projects:
-            <ul>
-                <li><a href="https://www.elisascience.org">
-                    eLISA (Consortium Steering Commitee)
-                </a></li>
-                <li><a href="http://sci.esa.int/lisa-pathfinder/">
-                    LISA Pathfinder (Science Team)
-                </a></li>
-                <li><a href="http://sci.esa.int/ste-quest/">
-                    STE-QUEST (Study Science Team)
-                </a></li>
-                <li><!--<a href="https://" -->
-                    E-GRIP (Principal investigator)
-                <!--</a>--></li>
-            </ul>
-        </p><p>
+        </p>
+        <ul>
+            <li><a href="https://www.elisascience.org">
+                eLISA (Consortium Steering Commitee)
+            </a></li>
+            <li><a href="http://sci.esa.int/lisa-pathfinder/">
+                LISA Pathfinder (Science Team)
+            </a></li>
+            <li><a href="http://sci.esa.int/ste-quest/">
+                STE-QUEST (Study Science Team)
+            </a></li>
+            <li><!--<a href="https://" -->
+                E-GRIP (Principal investigator)
+            <!--</a>--></li>
+        </ul>
+        <p>
             We are part of the
             <a href="http://www.physik.uzh.ch/e/homepage.shtml">physics institute</a> of
             <a href="http://www.uzh.ch/en.html">University of Zurich UZH</a>.
@@ -83,16 +84,25 @@
         </p>
             
     </header>
-    <section>
+    <section class="news">
         <h2>News</h2>
         <ul>
-            <li>
-                <strong>02.12.2015 04:15 (UTC)</strong>
-                <a href="http://sci.esa.int/lisa-pathfinder/">LISA Pathfinder Launch</a>
+            <li class="important">
+                <div class="newsitem">
+                    <strong>05 - 09. Sept 2016</strong><br>
+                    <a href="http://www.physik.uzh.ch/events/lisa2016/">
+                        11th International LISA Symposium
+                        (Irchel Campus, University of Zurich, Switzerland)
+                    </a>
+                </div>
             </li>
-            <li>
-                <strong>11.12.2015 16:00 (CET)</strong>
-                "Lift-off" reception for LISA Pathfinder (ETHZ Auditorium NO C60)
+            <li class="">
+                <div class="newsitem">
+                    <strong>Teaching this Semester (2016FS):</strong><br>
+                    <a href="http://www.vorlesungen.uzh.ch/FS16/lehrangebot/fak-50000008/sc-50544113/cga-50544113010/cg-50017561/sm-50717627.modveranst.html">
+                        PHY341 Thermodynamik
+                    </a>
+                </div>
             </li>
         </ul>
     </section>
@@ -211,9 +221,11 @@ Just open it with LibreOffice / Excel / TextEditor and make your changes
 <!--    Note to future poor soul that has to maintain this...
         The Idea is that you just have to uncomment the according part ;)
 -->
+<!--
             <li>
             (none)
             </li>
+-->
 <!--
             <li><a href='http://www.physik.uzh.ch/lectures/agr'>
                 Applications of General Relativity in Astrophysics and Cosmology (PHY519)
@@ -224,6 +236,17 @@ Just open it with LibreOffice / Excel / TextEditor and make your changes
                 Mathematische Methoden der Physik I &amp; II (PHY312 &amp; PHY322)
             </a></li>
 -->
+<!--
+            <li><a href='http://www.physik.uzh.ch/lectures/mmp'>
+                Mathematische Methoden der Physik I &amp; II (PHY312 &amp; PHY322)
+            </a></li>
+-->
+            <li><a href='http://www.physik.uzh.ch/lectures/thermo'>
+                Thermodynamik [ PHY341 ]
+            </a>
+            <a href="http://www.vorlesungen.uzh.ch/FS16/lehrangebot/fak-50000008/sc-50544113/cga-50544113010/cg-50017561/sm-50717627.modveranst.html">(vvz)</a>
+            </li>
+
         </ul>
     </section>
     

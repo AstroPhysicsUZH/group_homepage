@@ -73,7 +73,7 @@ body {
 }
 
 a {
-    color: #0028a5;
+    color: #0028A5;
     text-decoration: none;
     transition: background-color 0.2s linear;
 }
@@ -82,7 +82,7 @@ a:hover {
     background-color: #eee;
 }
 a:visited {
-    color: #6028a5;
+    color: #0028A5;
 }
 
 
@@ -259,6 +259,28 @@ article header {
     content: ")";
 }
 
+
+.news ul {
+  list-style: none;
+  margin: 1em;
+  padding: 0px;
+}
+
+.news .newsitem{
+  display: inline-block;
+  vertical-align: top;
+}
+.news li {
+  margin: 0.25em 0;
+  padding: 0.25em 1em;
+  border: black 1px dotted;
+  border-radius: 5px;
+}
+
+.news li.important {
+  background-color: #faa;
+  border-color: #f00;
+}
 
 
 
