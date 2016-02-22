@@ -85,7 +85,7 @@ $commands = array(
       "git reset --hard HEAD"
     , "git pull https master"
     , "git status"
-    , "chmod -R 777 ../*"
+    , "cd .. && ./fix_access.sh"
 );
 
 # prepare structure to save all output/return variables...
