@@ -1,4 +1,4 @@
 #!/bin/zsh
-find . -type d -exec chmod 775 {} +
-find . -type f -exec chmod 775 {} + 
+find . -type d -exec chmod 777 {} +
+find . -type f -exec chmod 777 {} + 
 
