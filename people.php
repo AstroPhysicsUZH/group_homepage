@@ -108,7 +108,7 @@ function get_people($filter) {
     foreach ($people[$filter] as $p) {
         $str  = "<div class=\"adressblock clearfix\">\n";
         $str .= "    <h3>" . get($p['title'], '') . " {$p['first']} {$p['last']}</h3>\n"; #mind the space before first
-        $str .= "    <img class=\"floatimg\" src=\"" . gett("people/",$p['foto'], "anon.jpg") . "\">\n";
+        $str .= "    <img class=\"floatimg\" alt=\"".gett("",$p['foto'], "anon.jpg")."\" src=\"" . gett("people/",$p['foto'], "anon.jpg") . "\">\n";
         $str .= "    <p>";
         $str .= $p['func'] ? "({$p['func']})<br>" : "" ;
         
@@ -120,7 +120,7 @@ function get_people($filter) {
         }
         /* encrypt email adresses, let js decrypt them */
         $encr_adr = encrypt($p['mail'], 21);
-        $str .= $p['mail'] ? "<a class='iimeil' href='mailto:someone@inter.net?body=Please enable javascript to decrypt email adresses. Alternativly you can try http://www.phonebook.uzh.ch/.' data-iimeil='{$encr_adr}' title='email address'>eMail</a><br>" : "" ;
+        $str .= $p['mail'] ? "<a class='iimeil' href='mailto:someone@inter.net?body=Please%20enable%20javascript%20to%20decrypt%20email%20adresses.%20Alternativly%20you%20can%20try%20http%3A%2F%2Fwww.phonebook.uzh.ch%2F' data-iimeil='{$encr_adr}' title='email address'>eMail</a><br>" : "" ;
 
         $str .= $p['buro'] ? "Office: {$p['buro']}<br>" : "" ;
         $str .= $p['tel'] ? "<a href='tel:" . preg_replace('/\s+/', '', $p['tel']) .  "'>Phone: {$p['tel']}</a><br>" : "" ;

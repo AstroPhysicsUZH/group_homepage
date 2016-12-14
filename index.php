@@ -5,10 +5,15 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
+        
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Gravitation and Astrophysics at UZH - Prof Ph. Jetzer</title>
+
+        <meta name="keywords" lang="en" content="gravitation,astro,physics,astrophysics,jetzer,uzh,zurich,research,group,lisa,elisa,esa">
+        <meta name="description" content="Research group based at University of Zurich doing resarch in gravitational wave astronomy, gravitational lensing and tests of 
+            Albert Einstein's General Relativity (GR)">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <meta name="author" content="Rafael Kueng <rafi.kueng@gmx.ch>" >
@@ -49,7 +54,7 @@
 <article id="top">
     <header>
         <h1>Welcome to the Gravitation and Astrophysics Group</h1>
-        <img class="right halfimg" src="img/irchel.jpg">
+        <img class="right halfimg" alt="irchel overview" src="img/irchel.jpg">
         <p>
             Our research focuses on gravitational wave astronomy, gravitational lensing and tests of 
             Albert Einstein's General Relativity (GR).  
@@ -114,7 +119,7 @@
     </header>
     <section>
         <h2>Gravitational Waves - <a href="https://www.elisascience.org/">eLISA</a></h2>
-        <img class="floatimg" src="img/gravwaves.jpg">
+        <img class="floatimg" alt="gravitational waves" src="img/gravwaves.jpg">
         <p>
 Gravitational waves (GW) are tiny ripples in the fabric of spacetime traveling at the speed of light.
 They were predicted by Einstein in 1916 as a consequence of his theory of General Relativity.
@@ -135,7 +140,7 @@ Detection of gravitational waves will thus add a new sense to scientists' percep
     
     <section>
         <h2>Testing General Relativity - <a href='http://sci.esa.int/ste-quest/'>STE-QUEST</a></h2>
-        <img class="floatimg" src="img/stequest.jpg">
+        <img class="floatimg" alt="STE quest" src="img/stequest.jpg">
         <p>
             The
             <strong>S</strong>pace-
@@ -156,7 +161,7 @@ Detection of gravitational waves will thus add a new sense to scientists' percep
     
     <section>
         <h2>Gravitational Lensing</h2>
-        <img class="floatimg" src="img/einsteinring.jpg">
+        <img class="floatimg" alt="einstein ring" src="img/einsteinring.jpg">
         <p>
 Gravitational Lensing is the astronomical effect of the distortion of light by masses, explained by Einstein's General Relativity.
 The light of a source astronomical object (like stars, quasars or galaxies) is passing though the gravitational field of a second object in the line of sight, the gravitational lens.
@@ -177,7 +182,7 @@ On the other side, the analysis of the effects on the images allow to determine 
 
     <section class="cheffe">
         <h2>Prof Philippe Jetzer</h2>
-        <img class="floatimg" src="people/p_jetzer.jpg">
+        <img class="floatimg" alt="ph. jetzer" src="people/p_jetzer.jpg">
         <p>Physik-Institut<br>University of Zurich<br>Winterthurerstr. 190<br>8057 Zurich<br>Switzerland</p>
         <p><a href="#" class='iimeil cheffe' data-iimeil='SofioX_MFVKOChBiFhbF'>eMail</a><br>Office: Y36-K34<br><a href='tel:+41446355819'>Tel: +41 44 635 5819</a><br>Fax: +41 44 635 5704</p>
     </section>
