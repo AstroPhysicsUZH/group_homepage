@@ -30,6 +30,8 @@
         <![endif]-->
 
 
+
+
 <div class="title-container">
     <header class="wrapper">
         <img id="logo" alt="uzh logo" src="img/uzh_logo_e_pos.png">
@@ -92,7 +94,23 @@
     <section class="news">
         <h2>News</h2>
         <ul>
+           
+		
             <li class="important">
+                <div class="newsitem">
+                    <strong>Special Seminar on Tuesday 16. Feb. 2016, 16:00</strong><br>
+			 <strong>Dr. Andrew Lundgren (AEI Hannover): "Detection of Gravitational Waves: The GW150914 Event"</strong><br>                 
+The first observation of gravitational waves from the merger of two black holes has just been announced. I'll talk about how the detection was made, how we confirmed its astrophysical origin, and how we measured its properties. I'll also give a personal account of the first few hours and talk about prospects for the future.  
+</br>
+</br>
+Room: University Zurich, Irchel Campus, Y17 M 05 (notice the special location, see <a href="http://www.physik.uzh.ch/images/irchel.pdf">map</a>) 
+		 </a>
+                </div>
+            </li>
+
+
+
+	 <li class="important">
                 <div class="newsitem">
                     <strong>05 - 09. Sept 2016</strong><br>
                     <a href="http://www.physik.uzh.ch/events/lisa2016/">
@@ -104,8 +122,9 @@
             <li class="">
                 <div class="newsitem">
                     <strong>Teaching this Semester (2016FS):</strong><br>
-                    <a href="http://www.vorlesungen.uzh.ch/FS16/lehrangebot/fak-50000008/sc-50544113/cga-50544113010/cg-50017561/sm-50717627.modveranst.html">
-                        PHY341 Thermodynamik
+                   	<a href="http://www.physik.uzh.ch/lectures/thermo/">PHY341 Thermodynamik</a>
+			<a href="http://www.vorlesungen.uzh.ch/FS16/lehrangebot/fak-50000008/sc-50544113/cga-50544113010/cg-50017561/sm-50717627.modveranst.html">
+                        (Link Vorlesungsverzeichnis UZH)
                     </a>
                 </div>
             </li>
@@ -184,7 +203,7 @@ On the other side, the analysis of the effects on the images allow to determine 
         <h2>Prof Philippe Jetzer</h2>
         <img class="floatimg" alt="ph. jetzer" src="people/p_jetzer.jpg">
         <p>Physik-Institut<br>University of Zurich<br>Winterthurerstr. 190<br>8057 Zurich<br>Switzerland</p>
-        <p><a href="#" class='iimeil cheffe' data-iimeil='SofioX_MFVKOChBiFhbF'>eMail</a><br>Office: Y36-K34<br><a href='tel:+41446355819'>Tel: +41 44 635 5819</a><br>Fax: +41 44 635 5704</p>
+        <p><a href="#" class='iimeil cheffe' data-iimeil='SofioX_MFVKOChBiFhbF'>eMail</a><br>Office: Y36-K82<br><a href='tel:+41446355819'>Tel: +41 44 635 5819</a><br>Fax: +41 44 635 5704</p>
     </section>
     
     <section>
@@ -209,6 +228,11 @@ Just open it with LibreOffice / Excel / TextEditor and make your changes
     <section>
         <h2>Academic Guests</h2>
         <?php get_people('guest') ?>
+    </section>
+
+    <section>
+        <h2>Former Members</h2>
+        <?php get_people('former') ?>
     </section>
 
 </article>

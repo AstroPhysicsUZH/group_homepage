@@ -1,15 +1,23 @@
-title,first name,last name,section,function,joined date,foto filename,email,homepage,office,tel
-,,,"group,  external or guest",,use year-month (used for sorting),,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-Dr.,Ruxandra,Bondarescu,group,,2011-10,r_bondarescu.jpg,ruxandra@physik.uzh.ch,http://www.ics.uzh.ch/~ruxandra,Y36-K34,+41 44 63 55804
-,Lionel,Philippoz,group,,2012-01,l_philippoz.jpg,,,Y36-K34,+41 44 63 55807
-,Andreas,Schärer,group,,2013-01,a_schaerer.jpg,andreas.schaerer@physik.uzh.ch,http://www.physik.uzh.ch/~anschae/,Y36-K34,+41 44 63 55804
-,Rafael,Küng,group,,2014-05,r_kueng.jpg,rafael.kueng@uzh.ch,http://www.physik.uzh.ch/~rafik/,Y36-K34,+41 44 63 55804
-,Yannick,Bötzel,group,,2015-07,y_boetzel.jpg,boetzel@physik.uzh.ch,,Y36-K32,+41 44 63 55807
-,,,,,,,,,,
-,,,,,,,,,,
-,Jan Ten,Pierick,external,LISA engeneer,2000-00,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,Pierre,Mandrin,guest,,2000-00,,,,,
+title,first name,last name,section,function,joined date,leave date,foto filename,email,homepage,office,tel
+,,,group external guest former,,use year-month (used for sorting),,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Dr.,Maria,Haney,group,,2017-01,,m_haney.jpg,maria.haney@gmx.de,,Y36-K32,+41 44 63 55807
+,Lionel,Philippoz,group,,2012-01,,l_philippoz.jpg,plionel@physik.uzh.ch,,Y36-K32,+41 44 63 55807
+,Andreas,Schärer,group,,2013-01,,a_schaerer.jpg,andreas.schaerer@physik.uzh.ch,http://www.physik.uzh.ch/~anschae/,Y36-K34,+41 44 63 55804
+,Rafael,Küng,group,,2014-05,,r_kueng.jpg,rafael.kueng@uzh.ch,http://www.physik.uzh.ch/~rafik/,Y36-K34,+41 44 63 55804
+,Yannick,Bötzel,group,,2015-07,,y_boetzel.jpg,boetzel@physik.uzh.ch,,Y36-K32,+41 44 63 55807
+,,,,,,,,,,,
+,,,,,,,,,,,
+,Jan Ten,Pierick,external,LISA engineer,2000-00,,jt_pierick.jpg,jan.tenpierick@erdw.ethz.ch,http://spaceserv1.ethz.ch/aeil/members-jan.html,NO F19,+41 44 633 6932
+,,,,,,,,,,,
+,,,,,,,,,,,
+,Pierre,Mandrin,guest,,2000-00,,p_mandrin.jpg,pierre.mandrin@uzh.ch,http://mandrin7.wix.com/home,,
+,Wako,Ishibashi,guest,,2016-09,,,wako@physik.uzh.ch,,Y36-K32,+41 44 63 55807
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Dr.,Ruxandra,Bondarescu,former,,2011-10,2016-09,r_bondarescu.jpg,ruxandra@physik.uzh.ch,,,
+Dr.,Cedric,Huwiler,former,,2000-00,2010-00,,,,,
+Dr.,Lorenzo,De Vitore,former,,2000-00,2010-00,,,,,
+Dr.,Simone,Balmelli,former,,2000-00,2010-00,,,,,
