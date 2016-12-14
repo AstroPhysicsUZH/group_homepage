@@ -225,6 +225,11 @@ Just open it with LibreOffice / Excel / TextEditor and make your changes
         <?php get_people('guest') ?>
     </section>
 
+    <section>
+        <h2>Former Members</h2>
+        <?php get_people('former') ?>
+    </section>
+
 </article>
 
 

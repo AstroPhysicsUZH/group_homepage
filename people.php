@@ -56,6 +56,9 @@ function read_csv($filename="people.csv",$offset=3) {
     function cmp_by_date($a, $b) {
         return strnatcmp($a['jdate'], $b['jdate']);
     }
+    function cmp_by_last($a, $b) {
+        return strnatcmp($a['last'], $b['last']);
+    }
     
     if (($handle = fopen("people/" . $filename, "r")) !== FALSE) {
 
@@ -63,6 +66,8 @@ function read_csv($filename="people.csv",$offset=3) {
         for (;$offset>0;$offset--){$data = fgetcsv($handle);}
 
         while (($d = fgetcsv($handle)) !== FALSE) {
+			
+			#print $d;
             
             # check if name field was full, otherwise skip his empty line
             if ($d[2]) {
@@ -72,13 +77,14 @@ function read_csv($filename="people.csv",$offset=3) {
                     'first'=>$d[1],
                     'last' => ($d[2]),
                     'func' =>$d[4],
-                    'foto' =>$d[6],
-                    'mail' =>$d[7],
-                    'hp'   =>$d[8],
-                    'buro' =>$d[9],
-                    'tel'  =>$d[10],
+                    'foto' =>$d[7],
+                    'mail' =>$d[8],
+                    'hp'   =>$d[9],
+                    'buro' =>$d[10],
+                    'tel'  =>$d[11],
                     
-                    'jdate'=>$d[5] # used for sorting
+                    'jdate'=>$d[5], # join date used for sorting
+                    'ldate'=>$d[6] # leave date used for sorting
                     ) ;
                 $people[$d[3]][] = $d2;
             }
@@ -87,7 +93,7 @@ function read_csv($filename="people.csv",$offset=3) {
         
         # sort $people by their join date $jdate
         foreach ($people as $group => &$members) {
-            usort($members, 'cmp_by_date');
+            usort($members, 'cmp_by_last');
             #$people[$group] = $members;
         }
         
