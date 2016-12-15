@@ -1,24 +1,34 @@
-<?php include 'people.php'; ?><!doctype html>
+<?php
+if (false){ # enable for debug
+    error_reporting(E_ALL);
+    ini_set('display_errors', 'On');
+    ini_set('display_startup_errors',1);
+}
+
+
+include 'people.php';
+include 'news.php';
+?><!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        
+
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <title>Gravitation and Astrophysics at UZH - Prof Ph. Jetzer</title>
 
         <meta name="keywords" lang="en" content="gravitation,astro,physics,astrophysics,jetzer,uzh,zurich,research,group,lisa,elisa,esa">
-        <meta name="description" content="Research group based at University of Zurich doing resarch in gravitational wave astronomy, gravitational lensing and tests of 
+        <meta name="description" content="Research group based at University of Zurich doing resarch in gravitational wave astronomy, gravitational lensing and tests of
             Albert Einstein's General Relativity (GR)">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
         <meta name="author" content="Rafael Kueng <rafi.kueng@gmx.ch>" >
         <meta name="designer" content="Rafael Kueng <rafi.kueng@gmx.ch>" >
-        
+
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
 
@@ -58,9 +68,9 @@
         <h1>Welcome to the Gravitation and Astrophysics Group</h1>
         <img class="right halfimg" alt="irchel overview" src="img/irchel.jpg">
         <p>
-            Our research focuses on gravitational wave astronomy, gravitational lensing and tests of 
-            Albert Einstein's General Relativity (GR).  
-            Although, General Relativity is a very successful theory in explaining observations 
+            Our research focuses on gravitational wave astronomy, gravitational lensing and tests of
+            Albert Einstein's General Relativity (GR).
+            Although, General Relativity is a very successful theory in explaining observations
             of the Universe both on the large scale and on the solar system scale, many open
             questions remain. Our theoretical work investigates how to best detect deviations
             from general relativity with current and planned missions, which could serve as a
@@ -89,28 +99,34 @@
             <a href="http://www.uzh.ch/en.html">University of Zurich UZH</a>.
             Our offices are located at the beautiful Irchel campus in Zurich and can be found in the <strong>building 36 on the K floor.</strong> <a href="https://www.google.ch/maps/place/Physik-Institut+der+Universit%C3%A4t+Z%C3%BCrich/@47.397124,8.5498869,305m/data=!3m1!1e3!4m2!3m1!1s0x479aa08286159ca7:0x472b412a88eb77a6!6m1!1e1">(directions)</a>
         </p>
-            
+
     </header>
     <section class="news">
         <h2>News</h2>
+
+<?php
+get_news();
+
+/*
         <ul>
-           
-		
+
+
             <li class="important">
                 <div class="newsitem">
-                    <strong>Special Seminar on Tuesday 16. Feb. 2016, 16:00</strong><br>
-			 <strong>Dr. Andrew Lundgren (AEI Hannover): "Detection of Gravitational Waves: The GW150914 Event"</strong><br>                 
-The first observation of gravitational waves from the merger of two black holes has just been announced. I'll talk about how the detection was made, how we confirmed its astrophysical origin, and how we measured its properties. I'll also give a personal account of the first few hours and talk about prospects for the future.  
-</br>
-</br>
-Room: University Zurich, Irchel Campus, Y17 M 05 (notice the special location, see <a href="http://www.physik.uzh.ch/images/irchel.pdf">map</a>) 
-		 </a>
+                    <strong>Special Seminar on Tuesday 16. Feb. 2016, 16:00</strong>
+                    <br>
+                    <strong>Dr. Andrew Lundgren (AEI Hannover): "Detection of Gravitational Waves: The GW150914 Event"</strong>
+                    <br>
+                    The first observation of gravitational waves from the merger of two black holes has just been announced. I'll talk about how the detection was made, how we confirmed its astrophysical origin, and how we measured its properties. I'll also give a personal account of the first few hours and talk about prospects for the future.
+                    <br>
+                    <br>
+                    Room: University Zurich, Irchel Campus, Y17 M 05 (notice the special location, see <a href="http://www.physik.uzh.ch/images/irchel.pdf">map</a>)
                 </div>
             </li>
 
 
 
-	 <li class="important">
+            <li class="important">
                 <div class="newsitem">
                     <strong>05 - 09. Sept 2016</strong><br>
                     <a href="http://www.physik.uzh.ch/events/lisa2016/">
@@ -119,15 +135,20 @@ Room: University Zurich, Irchel Campus, Y17 M 05 (notice the special location, s
                     </a>
                 </div>
             </li>
+
+*/
+/*
             <li class="">
                 <div class="newsitem">
-                    <strong>Teaching this Semester (2016FS):</strong><br>
-                   	<a href="http://www.physik.uzh.ch/lectures/thermo/">PHY341 Thermodynamik</a>
-			<a href="http://www.vorlesungen.uzh.ch/FS16/lehrangebot/fak-50000008/sc-50544113/cga-50544113010/cg-50017561/sm-50717627.modveranst.html">
-                        (Link Vorlesungsverzeichnis UZH)
-                    </a>
+                    <strong>Teaching this Semester (2016HS):</strong>
+                    <br>
+                   	<a href="http://www.physik.uzh.ch/en/teaching/PHY511/HS2016.html">PHY511 General Relativity</a>
+                    <a href="https://studentservices.uzh.ch/uzh/anonym/vvz/index.html?sap-language=EN&sap-ui-language=EN#/details/2016/003/SM/50411273">(Link Vorlesungsverzeichnis UZH)</a>
                 </div>
             </li>
+*/
+?>
+
         </ul>
     </section>
 </article>
@@ -143,7 +164,7 @@ Room: University Zurich, Irchel Campus, Y17 M 05 (notice the special location, s
 Gravitational waves (GW) are tiny ripples in the fabric of spacetime traveling at the speed of light.
 They were predicted by Einstein in 1916 as a consequence of his theory of General Relativity.
 There is indirect evidence for the existence of GW (e.g. Hulse-Taylor binary), but so far they have not been directly observed.
-The 
+The
 <strong>e</strong>volved
 <strong>L</strong>aser
 <strong>I</strong>nterferometer
@@ -156,7 +177,7 @@ Detection of gravitational waves will thus add a new sense to scientists' percep
             <a class='source' href='https://en.wikipedia.org/wiki/Evolved_Laser_Interferometer_Space_Antenna'>Wiki</a>-->
         </p>
     </section>
-    
+
     <section>
         <h2>Testing General Relativity - <a href='http://sci.esa.int/ste-quest/'>STE-QUEST</a></h2>
         <img class="floatimg" alt="STE quest" src="img/stequest.jpg">
@@ -177,7 +198,7 @@ Detection of gravitational waves will thus add a new sense to scientists' percep
             -->
         </p>
     </section>
-    
+
     <section>
         <h2>Gravitational Lensing</h2>
         <img class="floatimg" alt="einstein ring" src="img/einsteinring.jpg">
@@ -205,34 +226,32 @@ On the other side, the analysis of the effects on the images allow to determine 
         <p>Physik-Institut<br>University of Zurich<br>Winterthurerstr. 190<br>8057 Zurich<br>Switzerland</p>
         <p><a href="#" class='iimeil cheffe' data-iimeil='SofioX_MFVKOChBiFhbF'>eMail</a><br>Office: Y36-K82<br><a href='tel:+41446355819'>Tel: +41 44 635 5819</a><br>Fax: +41 44 635 5704</p>
     </section>
-    
+
     <section>
         <h2>Group Members</h2>
-        
+
 <!--
 NOTE: the entries for the people are generated automatically using the csv file
 people/people.csv
 Just open it with LibreOffice / Excel / TextEditor and make your changes
 -->
-        <?php get_people('group') ?>
-
-
-
+<?php get_people('postdoc') ?>
+<?php get_people('phd') ?>
     </section>
 
     <section>
-        <h2>External</h2>
-        <?php get_people('external') ?>
+        <h2>LISA engineer</h2>
+<?php get_people('lisaeng') ?>
     </section>
 
     <section>
         <h2>Academic Guests</h2>
-        <?php get_people('guest') ?>
+<?php get_people('guest') ?>
     </section>
 
     <section>
         <h2>Former Members</h2>
-        <?php get_people('former') ?>
+<?php get_people('former') ?>
     </section>
 
 </article>
@@ -243,12 +262,16 @@ Just open it with LibreOffice / Excel / TextEditor and make your changes
     <header>
         <h1>For Students</h1>
     </header>
-    
+
+<!--
     <section>
         <h2>Current Lectures</h2>
         <ul>
+-->
 <!--    Note to future poor soul that has to maintain this...
         The Idea is that you just have to uncomment the according part ;)
+        - OR -
+        just write a news entry...
 -->
 <!--
             <li>
@@ -270,19 +293,21 @@ Just open it with LibreOffice / Excel / TextEditor and make your changes
                 Mathematische Methoden der Physik I &amp; II (PHY312 &amp; PHY322)
             </a></li>
 -->
+<!--
             <li><a href='http://www.physik.uzh.ch/lectures/thermo'>
                 Thermodynamik [ PHY341 ]
             </a>
             <a href="http://www.vorlesungen.uzh.ch/FS16/lehrangebot/fak-50000008/sc-50544113/cga-50544113010/cg-50017561/sm-50717627.modveranst.html">(vvz)</a>
             </li>
-
+-->
+<!--
         </ul>
     </section>
-    
+-->
     <section>
         <h2>Lecture Notes</h2>
         <ul>
-        
+
             <li><a href='notes/PHY312_MMP_1.pdf'>
                 Mathematische Methoden der Physik I [PHY312]
             </a></li>
@@ -291,34 +316,34 @@ Just open it with LibreOffice / Excel / TextEditor and make your changes
                 Mathematische Methoden der Physik II [PHY322]
             </a></li>
 
-            <li><a href='notes/PHY511_General_Relativity.pdf'>
+            <li><a href='notes/PHY511_HS16_General_Relativity.pdf'>
                 General Relativity (revised notes, typed by Arnaud Borde) [PHY511]
             </a></li>
 
             <li><a href='notes/PHY511_General_Relativity_unoffical.pdf'>
                 General Relativity (unofficial notes, typed by Felix Haehl) [PHY511]
             </a></li>
-            
+
             <li><a href='notes/PHY519_ART_II.pdf'>
                 Applications of General Relativity (Felix Haehl) [PHY 519]
             </a></li>
-            
+
             <li><a href='notes/Gravitational_Lensing.pdf'>
                 Gravitational Lensing
             </a></li>
-            
+
             <li><a href='notes/High_Energy_Astrophysics_1.pdf'>
                 High Energy Astrophysics I
             </a></li>
-            
+
         </ul>
     </section>
-    
+
     <section>
         <h2>Bachelor / Master Thesis</h2>
         <p>
             If you like our research areas and want to contribute, we'd be exited to hear from you!<br>
-            Whether you have your own idea, or want to contribute to a running project, 
+            Whether you have your own idea, or want to contribute to a running project,
             just drop us a mail or come by in one of our offices in Y36-K floor for a discussion.
         </p>
     </section>
@@ -327,7 +352,7 @@ Just open it with LibreOffice / Excel / TextEditor and make your changes
         <p>
             For up to date information of available positions please consult the
             <a href="http://www.physik.uzh.ch/info/graduateschool.shtml">graduate school</a> and the <a href="http://www.physik.uzh.ch/jobs.shtml"> jobs portal</a>
-            of the physics institute.
+            of the physics institute or contact us directly.
         </p>
 <!-- Don't do this, this will never be maintained...
         <p>

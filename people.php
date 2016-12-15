@@ -1,10 +1,10 @@
 <?php
 /*
  * This script parses the csv table people/people.csv for the people section
- * 
+ *
  * On load, it parses the data and stores it into an array, afterwards
  * the echo only output the arrays
- * 
+ *
  */
 
 
@@ -29,7 +29,7 @@ function gett($pf="", &$var, $default="") {
 /**
  * en/decrypts an email address using rotN method
  * (let js then decrypt it afterwards, using -N)
- * 
+ *
  * use my own de/encryption, based on the idea of rot13
  */
 function encrypt($s, $n=0) {
@@ -45,30 +45,30 @@ function encrypt($s, $n=0) {
 /**
  * reads a cvs file
  * $offset:   how many lines to ignore at the beginning of the csv file
- * 
+ *
  * will put persons into categories (from col 3)
  * will sort by the (string) date in col 5
  */
-function read_csv($filename="people.csv",$offset=3) {
+function read_csv($filename="people.csv", $offset=3) {
     $row=0;
     #$people = array();
-    
-    function cmp_by_date($a, $b) {
+
+    function cmp_by_jdate($a, $b) {
         return strnatcmp($a['jdate'], $b['jdate']);
     }
     function cmp_by_last($a, $b) {
         return strnatcmp($a['last'], $b['last']);
     }
-    
+
     if (($handle = fopen("people/" . $filename, "r")) !== FALSE) {
 
         # get rid of the first $offset lines
         for (;$offset>0;$offset--){$data = fgetcsv($handle);}
 
         while (($d = fgetcsv($handle)) !== FALSE) {
-			
+
 			#print $d;
-            
+
             # check if name field was full, otherwise skip his empty line
             if ($d[2]) {
 
@@ -82,7 +82,7 @@ function read_csv($filename="people.csv",$offset=3) {
                     'hp'   =>$d[9],
                     'buro' =>$d[10],
                     'tel'  =>$d[11],
-                    
+
                     'jdate'=>$d[5], # join date used for sorting
                     'ldate'=>$d[6] # leave date used for sorting
                     ) ;
@@ -90,13 +90,13 @@ function read_csv($filename="people.csv",$offset=3) {
             }
         }
         fclose($handle);
-        
+
         # sort $people by their join date $jdate
         foreach ($people as $group => &$members) {
             usort($members, 'cmp_by_last');
             #$people[$group] = $members;
         }
-        
+
         return $people;
     }
     else {
@@ -108,7 +108,7 @@ function read_csv($filename="people.csv",$offset=3) {
 
 
 function get_people($filter) {
-    
+
     global $people;
 
     foreach ($people[$filter] as $p) {
@@ -117,10 +117,10 @@ function get_people($filter) {
         $str .= "    <img class=\"floatimg\" alt=\"".gett("",$p['foto'], "anon.jpg")."\" src=\"" . gett("people/",$p['foto'], "anon.jpg") . "\">\n";
         $str .= "    <p>";
         $str .= $p['func'] ? "({$p['func']})<br>" : "" ;
-        
+
         $str .= $p['hp'] ? "<a href='{$p['hp']}'>Homepage</a> " : "" ;
 
-        
+
         if ($p['hp'] and $p['mail']) {
             $str .= " | ";
         }
@@ -133,7 +133,7 @@ function get_people($filter) {
 
         $str .= "</p>\n";
         $str .= "</div>\n";
-        
+
         echo $str;
     }
 
