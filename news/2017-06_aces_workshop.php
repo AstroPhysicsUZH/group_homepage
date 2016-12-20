@@ -20,7 +20,7 @@ HTML
     "dateOff"  => "2017-06-30 23:59",
 
     "text"     => <<<HTML
-Workshop on fundamental and applied science with clocks and cold atoms in space
+<a href="http://www.physik.uzh.ch/events/aces2017/">Workshop on fundamental and applied science with clocks and cold atoms in space</a>
 HTML
     ]; #keep this on a seperate line
 
