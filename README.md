@@ -38,5 +38,7 @@ It has tree security features:
 It probably leads to a huge mess with user rights and ownership of files in the web folders that poor Roland has to clean up at some point with a `chown -R wwwrun:www *` . I'm sorry about that!
 
 
-
-
+## Install
+to (re)install the site copy `init.php` into the root of the directory and fire it up from the machine named taurus using a web browser (or change the fixed ip in the script) `http://www.physik.uzh.ch/groups/jetzer/init.php`
+This will create a new clone of the repro and checks out master branch.
+The access to `init.php` will then be prohibited by `.htaccess` file
