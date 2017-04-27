@@ -44,6 +44,9 @@ to (re)install the site:
 - `chmod 777 init.php`
 -  fire it up from the machine named taurus using a web browser (or change the fixed ip in the script) `http://www.physik.uzh.ch/groups/jetzer/init.php`
 
+use this command to get the file:
+`wget https://raw.githubusercontent.com/AstroPhysicsUZH/group_homepage/master/init.php && chmod 777 init.php`
+
 This will create a new clone of the repro and checks out master branch.
 The access to `init.php` will then be prohibited by `.htaccess` file.
 To update the page simply push to github organisation...
