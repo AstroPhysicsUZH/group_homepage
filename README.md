@@ -17,8 +17,8 @@ and **make sure to save the file as csv (comma separated)**
 (see here for libreoffice: http://superuser.com/questions/717243/libreoffice-is-saving-csv-files-with-tabs-as-separators)
 
 
-##the news
-(to be done)
+## The news / teaching list
+check the `news` folder to quickly add news items or teaching lists. see templates.
 
 
 ## The update hook
@@ -39,6 +39,11 @@ It probably leads to a huge mess with user rights and ownership of files in the 
 
 
 ## Install
-to (re)install the site copy `init.php` into the root of the directory and fire it up from the machine named taurus using a web browser (or change the fixed ip in the script) `http://www.physik.uzh.ch/groups/jetzer/init.php`
+to (re)install the site:
+- copy `init.php` into the root of the directory
+- `chmod 777 init.php`
+-  fire it up from the machine named taurus using a web browser (or change the fixed ip in the script) `http://www.physik.uzh.ch/groups/jetzer/init.php`
+
 This will create a new clone of the repro and checks out master branch.
-The access to `init.php` will then be prohibited by `.htaccess` file
+The access to `init.php` will then be prohibited by `.htaccess` file.
+To update the page simply push to github organisation...
