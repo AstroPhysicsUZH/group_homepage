@@ -83,7 +83,7 @@ $outp = array();
 # enter commands to be executed here
 $commands = array(
       "git reset --hard HEAD"
-    , "git pull https master"
+    , "git pull origin master"
     , "git status"
     , "cd .. && ./fix_access.sh"
 );
