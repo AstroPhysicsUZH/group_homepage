@@ -1,0 +1,5 @@
+# for some reason that doesn't work
+#<Files "init.php">
+#Order Allow,Deny
+#Deny from all
+#</Files>
