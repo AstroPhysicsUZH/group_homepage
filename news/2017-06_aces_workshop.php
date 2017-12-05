@@ -17,7 +17,7 @@ HTML
     #"dateOn"   => "2016-09-09 09:00",
 
     // when will it disappear from webpage, default date+1w
-    "dateOff"  => "2117-06-30 23:59",
+    "dateOff"  => "2117-06-30 23:59", # well this function was implemented such that old news won't stay forever on the main page... but apparently we like it there forever. So nice try doing something handy but completly useless... who wants an up to date webpage anyways...
 
     "text"     => <<<HTML
 <a href="http://www.physik.uzh.ch/events/aces2017/">Workshop on fundamental and applied science with clocks and cold atoms in space</a>

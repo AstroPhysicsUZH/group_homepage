@@ -8,7 +8,7 @@ foreach ($newsitems as $newsitem) {
     include $newsdir . '/' . $newsitem;
 }
 
-function cmp_by_date($a, $b) { return $a['date'] > $b['date']; }
+function cmp_by_date($a, $b) { return $a['date'] < $b['date']; }
 usort($NEWS,"cmp_by_date");
 
 function get_news() {
