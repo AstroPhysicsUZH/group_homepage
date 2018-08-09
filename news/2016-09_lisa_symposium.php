@@ -19,7 +19,7 @@ EOLHTML
     #"dateOn"   => "2016-09-09 09:00",
 
     // when will it disappear from webpage, default date+1w
-    "dateOff"  => "2017-09-09 09:00", # like forever
+    "dateOff"  => "2117-09-09 09:00", # like forever
 
     "text"     => <<<EOLHTML
 
