@@ -322,16 +322,20 @@ Just open it with LibreOffice / Excel / TextEditor and make your changes
                 Mathematische Methoden der Physik II [PHY322]
             </a></li>
 
-            <li><a href='notes/PHY511_HS16_General_Relativity.pdf'>
-                General Relativity (revised notes, typed by Arnaud Borde) [PHY511]
+            <li><a href='notes/PHY511_General_Relativity.pdf'>
+                General Relativity [PHY511]
+            </a></li>
+
+            <li><a href='notes/PHY519_ART_II.pdf'>
+                Applications of General Relativity [PHY 519]
+            </a></li>
+
+            <li><a href='notes/PHY529_ART_III.pdf'>
+                Advanced Topics in General Relativity and Gravitational Waves [PHY 529]
             </a></li>
 
             <li><a href='notes/PHY511_General_Relativity_unoffical.pdf'>
                 General Relativity (unofficial notes, typed by Felix Haehl) [PHY511]
-            </a></li>
-
-            <li><a href='notes/PHY519_ART_II.pdf'>
-                Applications of General Relativity (Felix Haehl) [PHY 519]
             </a></li>
 
             <li><a href='notes/Gravitational_Lensing.pdf'>
