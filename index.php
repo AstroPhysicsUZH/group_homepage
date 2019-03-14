@@ -230,7 +230,7 @@ get_news();
         <h2>Prof Philippe Jetzer</h2>
         <img class="floatimg" alt="ph. jetzer" src="people/p_jetzer.jpg">
         <p>Physik-Institut<br>University of Zurich<br>Winterthurerstr. 190<br>8057 Zurich<br>Switzerland</p>
-        <p><a href="#" class='iimeil cheffe' data-iimeil='SofioX_MFVKOChBiFhbF'>eMail</a><br>Office: Y36-K82<br><a href='tel:+41446355819'>Tel: +41 44 635 5819</a><br>Fax: +41 44 635 5704</p>
+        <p><a href="#" class='iimeil cheffe' data-iimeil='SofioX_MFVKOChBiFhbF'>eMail</a><br>Office: Y36-K82<br><a href='tel:+41446355819'>Tel: +41 44 63 55819</a><br>Fax: +41 44 63 55704</p>
     </section>
 
     <section>
